@@ -1,0 +1,303 @@
+/*/////////////////// DEFAULT STYLES ///////////////////*/
+
+html {
+    background: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F198721402295866488%2F&psig=AOvVaw3xtbe80wwRzFIm1eEeF6ap&ust=1652121037199000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCICivNDE0PcCFQAAAAAdAAAAABAD');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    font-family: 'Futura-CondensedMedium';
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 0;
+    line-height: 1;
+}
+
+/*/////////////////// TITLE ///////////////////*/
+
+h1 {
+    font-size: 2.5rem;
+    width: 100vw;
+    font-family: 'Pokemon Solid', sans-serif;
+    -webkit-text-fill-color: #fed202;
+    -webkit-text-stroke: 0.15rem #2c6fb7;
+    text-shadow: -3px 3px 1px #192653;
+    letter-spacing: 1.5vw;
+}
+
+@media screen and (min-width: 600px) {
+    h1 {
+        font-size: 4.5rem;
+        -webkit-text-stroke: 0.2rem #2c6fb7;
+    }
+}
+
+/*/////////////////// BORDER ///////////////////*/
+
+.background,
+.border {
+    border-radius: 5%;
+}
+
+/* 90% width for the image-border*/
+.image-border-bulbasaur,
+.image-border-charmander,
+.image-border-squirtle {
+    width: 90%;
+}
+
+/* 90% width and height for the background */
+.background-grass,
+.background-fire,
+.background-water {
+    width: 90%;
+    height: 92%;
+    margin: 1rem auto;
+}
+
+.border {
+    width: 18rem;
+    height: 25rem;
+    border: 1px dashed red;
+    background: linear-gradient(to top left,
+            #ffd65aaa,
+            #ffef08da,
+            #deb434c0,
+            #ffef08da,
+            #ffd65aaa),
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.3' seed='1' numOctaves='2' stitchTiles='stitch' /%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' /%3E%3C/svg%3E");
+}
+
+/*/////////////////// HEADER ///////////////////*/
+.box {
+    border: 1px dashed red;
+    width: 100%;
+    height: fit-content;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.wip,
+.name,
+.hp,
+.energy {
+    border: 1 px dashed red;
+}
+
+/* .name {
+  font-size: 1em;
+  float: start;
+  width: 100%;
+} */
+
+.header {
+    width: 90%;
+}
+
+.rainbow {
+    line-height: 1;
+    /* rainbow text */
+    background: linear-gradient(to right,
+            violet 12.5%,
+            indigo 25%,
+            blue 37.5%,
+            green 50%,
+            yellow 62.5%,
+            orange 75%,
+            red 82.5%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    /* TEXT OUTLINE */
+    /* -webkit-text-stroke-width: 0.04vw;
+    -webkit-text-stroke-color: rgba(122, 122, 122, 0.4); */
+}
+
+.hp,
+.energy {
+    float: right;
+}
+
+.hp {
+    color: rgba(255, 0, 0, 0.85);
+}
+
+.energy {
+    width: 1.2rem;
+}
+
+/*/////////////////// CONTENT ///////////////////*/
+
+span.stats {
+    font-size: 0.6em;
+    font-weight: bold;
+    background: linear-gradient(to right, #9c9a08, yellow, #9c9a08);
+    width: 85%;
+    margin: 0.5em;
+
+    /*  adds side borders to span.stats */
+    border-image: linear-gradient(to top, yellow, #929004) 1;
+    border-left: 0.2rem outset;
+    border-right: 0.2rem outset;
+    box-shadow: 0.4vw 0.4vw 0.4vw black;
+}
+
+p.footer-text {
+    font-size: 0.75rem;
+    line-height: 1.5;
+    font-weight: bold;
+    width: 95%;
+    border: 1px dashed red;
+}
+
+li {
+    width: 100%;
+    list-style-type: none;
+}
+
+.subtext {
+    width: 100%;
+}
+
+.item {
+    font-size: 0.5rem;
+}
+
+/*/////////////////// BULBASAUR ///////////////////*/
+
+.background-grass {
+    background: linear-gradient(to top,
+            rgba(8, 56, 0, 0.7) 30%,
+            rgba(9, 255, 0, 0.5),
+            rgba(0, 255, 204, 0.7)),
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='franctalNoise' baseFrequency='0.2' seed='3' numOctaves='1' stitchTiles='stitch' /%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' /%3E%3C/svg%3E");
+}
+
+.image-border-bulbasaur {
+    background: linear-gradient(to bottom right,
+            rgba(255, 20, 147, 0.6),
+            rgba(153, 0, 255, 0.7));
+    height: 10rem;
+    border: 0.3125rem outset;
+
+    /*  border-image with a gradient    */
+    border-image: linear-gradient(to top left, lime, green, darkgreen) 1;
+
+    /* box-shadow: |h-offset v-offset blur spread color |inset|initial|inherit; */
+    box-shadow: 0.7vw 0.7vw 0.7vw black;
+}
+
+img.bulbasaur {
+    width: 13rem;
+    transform: translate(-0.5rem, -1.5rem) rotateY(180deg) rotate(10deg);
+}
+
+/*/////////////////// CHARMANDER ///////////////////*/
+
+.background-fire {
+    background: linear-gradient(to top,
+            rgba(114, 0, 0, 0.7) 30%,
+            rgba(255, 187, 0, 0.5),
+            rgba(212, 255, 0, 0.7)),
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='franctalNoise' baseFrequency='0.2' seed='3' numOctaves='1' stitchTiles='stitch' /%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' /%3E%3C/svg%3E");
+}
+
+.image-border-charmander {
+    background: linear-gradient(to top left,
+            rgb(255, 0, 0, 0.7),
+            rgb(255, 251, 0, 0.2));
+    height: 10rem;
+    border: 0.3125rem outset;
+
+    /*  border-image with a gradient    */
+    border-image: linear-gradient(to top left, yellow, orange, red) 1;
+
+    /* box-shadow: |h-offset v-offset blur spread color |inset|initial|inherit; */
+    box-shadow: 0.7vw 0.7vw 0.7vw black;
+}
+
+img.charmander {
+    width: 9.7rem;
+    transform: translate(0.6rem, -1rem) rotateY(180deg) rotate(-8deg);
+}
+
+/*/////////////////// SQUIRTLE ///////////////////*/
+
+.background-water {
+    background: linear-gradient(to top,
+            rgba(0, 4, 255, 0.7) 30%,
+            rgba(0, 136, 255, 0.5),
+            rgba(0, 238, 255, 0.7)),
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='franctalNoise' baseFrequency='0.2' seed='3' numOctaves='1' stitchTiles='stitch' /%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' /%3E%3C/svg%3E");
+}
+
+.image-border-squirtle {
+    background: linear-gradient(to bottom right,
+            rgba(0, 255, 255, 0.5),
+            rgba(0, 35, 135, 0.6) 70%,
+            indigo);
+    height: 10rem;
+    border: 0.3125rem outset;
+
+    /*  border-image with a gradient    */
+    border-image: linear-gradient(to bottom left,
+            #ff52f9,
+            #3c00ff,
+            rgb(0, 255, 251)) 1;
+
+    /* box-shadow: |h-offset v-offset blur spread color |inset|initial|inherit; */
+    box-shadow: 0.7vw 0.7vw 0.7vw black;
+}
+
+img.squirtle {
+    width: 12rem;
+    transform: translate(-0.31rem, -1.2rem);
+}
+
+/* POKEMON TYPE CAPSULE STRUCTURE */
+.pokemon-type {
+    border: 0.1vw solid gray;
+    border-radius: 31.25rem;
+    box-shadow: 0.3vw 0.3vw 0.3vw black;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1rem;
+    margin: 0.5rem;
+    padding: 0.2rem;
+
+    /* SETS SAME SIZE */
+    width: 3rem;
+}
+
+.capsule {
+    margin-top: 0.5rem;
+}
+
+/* GRASS TYPE CAPSULE */
+.pokemon-type#grass {
+    background: linear-gradient(to bottom, white 1%, #52a306 35%, white);
+}
+
+/* POISON TYPE CAPSULE */
+span.pokemon-type#poison {
+    background: linear-gradient(to bottom, white 1%, #944295 35%, white);
+}
+
+/* FIRE TYPE CAPSULE */
+span.pokemon-type#fire {
+    background: linear-gradient(to bottom, white 1%, #d01010 35%, white);
+}
+
+/* WATER TYPE CAPSULE */
+span.pokemon-type#water {
+    background: linear-gradient(to bottom, white 1%, #1e56bd 35%, white);
+}
+}
