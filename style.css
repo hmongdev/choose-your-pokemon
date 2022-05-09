@@ -1,5 +1,10 @@
 /*/////////////////// DEFAULT STYLES ///////////////////*/
 
+@font-face {
+    font-family: 'Pokemon Solid', sans-serif;
+    src: url(sansation_light.woff);
+}
+
 html {
     background-image: url("images/kanto-background.png");
     background-repeat: no-repeat;
