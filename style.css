@@ -2,6 +2,14 @@
 
 @import url('http://fonts.cdnfonts.com/css/pokemon-solid');
 
+@font-face {
+    font-family: 'Pokemon Solid', sans-serif;
+    src: url('pokemonsolid-webfont.woff2') format('woff2'),
+        url('pokemonsolid-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html {
     background-image: url("images/kanto-background.png");
     background-repeat: no-repeat;
