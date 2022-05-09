@@ -1,7 +1,7 @@
 /*/////////////////// DEFAULT STYLES ///////////////////*/
 
 html {
-    background: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F198721402295866488%2F&psig=AOvVaw3xtbe80wwRzFIm1eEeF6ap&ust=1652121037199000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCICivNDE0PcCFQAAAAAdAAAAABAD');
+    background-image: url("images/kanto-background.png");
     background-repeat: no-repeat;
     background-size: cover;
     box-sizing: border-box;
@@ -15,8 +15,15 @@ html {
 }
 
 body {
+    background: none;
     padding: 0;
     line-height: 1;
+}
+
+.box {
+    border: 1px dashed red;
+    width: 90%;
+    margin: 2rem auto;
 }
 
 /*/////////////////// TITLE ///////////////////*/
@@ -75,29 +82,18 @@ h1 {
 }
 
 /*/////////////////// HEADER ///////////////////*/
-.box {
-    border: 1px dashed red;
-    width: 100%;
-    height: fit-content;
-}
 
 ul {
     margin: 0;
     padding: 0;
 }
 
-.wip,
 .name,
 .hp,
 .energy {
-    border: 1 px dashed red;
+    display: inline-block;
+    width: fit-content;
 }
-
-/* .name {
-  font-size: 1em;
-  float: start;
-  width: 100%;
-} */
 
 .header {
     width: 90%;
@@ -132,17 +128,23 @@ ul {
 }
 
 .energy {
-    width: 1.2rem;
+    width: 20px;
+    margin-left: 0.3rem;
 }
 
 /*/////////////////// CONTENT ///////////////////*/
 
+.content {
+    height: 100%;
+}
+
 span.stats {
-    font-size: 0.6em;
+    font-size: 0.5em;
     font-weight: bold;
     background: linear-gradient(to right, #9c9a08, yellow, #9c9a08);
     width: 85%;
-    margin: 0.5em;
+    padding: 0.3em;
+    margin: 1em;
 
     /*  adds side borders to span.stats */
     border-image: linear-gradient(to top, yellow, #929004) 1;
@@ -151,12 +153,11 @@ span.stats {
     box-shadow: 0.4vw 0.4vw 0.4vw black;
 }
 
-p.footer-text {
+p.description {
     font-size: 0.75rem;
     line-height: 1.5;
     font-weight: bold;
     width: 95%;
-    border: 1px dashed red;
 }
 
 li {
@@ -164,12 +165,9 @@ li {
     list-style-type: none;
 }
 
-.subtext {
-    width: 100%;
-}
-
 .item {
-    font-size: 0.5rem;
+    font-size: 0.4rem;
+    width: fit-content;
 }
 
 /*/////////////////// BULBASAUR ///////////////////*/
@@ -197,8 +195,8 @@ li {
 }
 
 img.bulbasaur {
-    width: 13rem;
-    transform: translate(-0.5rem, -1.5rem) rotateY(180deg) rotate(10deg);
+    width: 14rem;
+    transform: translate(-0.4rem, -2.5rem) rotateY(180deg) rotate(6deg);
 }
 
 /*/////////////////// CHARMANDER ///////////////////*/
@@ -278,7 +276,7 @@ img.squirtle {
 }
 
 .capsule {
-    margin-top: 0.5rem;
+    margin: 1rem;
 }
 
 /* GRASS TYPE CAPSULE */
@@ -299,5 +297,4 @@ span.pokemon-type#fire {
 /* WATER TYPE CAPSULE */
 span.pokemon-type#water {
     background: linear-gradient(to bottom, white 1%, #1e56bd 35%, white);
-}
 }
