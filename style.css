@@ -2,7 +2,10 @@
 
 @font-face {
     font-family: 'Pokemon Solid', sans-serif;
-    src: url('http://fonts.cdnfonts.com/css/pokemon-solid');
+    src: url('pokemonsolid-webfont.woff2') format('woff2'),
+         url('pokemonsolid-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 html {
