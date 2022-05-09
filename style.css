@@ -1,5 +1,7 @@
 /*/////////////////// DEFAULT STYLES ///////////////////*/
 
+/* Pokemon Solid Fonts *********************************/
+
 @import url('http://fonts.cdnfonts.com/css/pokemon-solid');
 
 @font-face {
@@ -9,6 +11,10 @@
     font-weight: normal;
     font-style: normal;
 }
+
+/* Pokemon Solid Fonts *********************************/
+@import url(//db.onlinewebfonts.com/c/f4d1593471d222ddebd973210265762a?family=Pokemon);
+@font-face {font-family: "Pokemon"; src: url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.eot"); src: url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.woff") format("woff"), url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.svg#Pokemon") format("svg"); }
 
 html {
     background-image: url("images/kanto-background.png");
@@ -81,7 +87,7 @@ body {
 h1 {
     font-size: 2.5rem;
     width: 100vw;
-    font-family: 'Pokemon Solid', sans-serif;
+    font-family: 'Pokemon', sans-serif;
     -webkit-text-fill-color: #fed202;
     -webkit-text-stroke: 0.15rem #2c6fb7;
     text-shadow: -3px 3px 1px #192653;
