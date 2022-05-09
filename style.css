@@ -31,7 +31,6 @@ body {
 }
 
 .box {
-    border: 1px dashed red;
     width: 90%;
     margin: 2rem auto;
 }
@@ -193,7 +192,7 @@ span.stats {
     font-size: 0.5em;
     font-weight: bold;
     background: linear-gradient(to right, #9c9a08, yellow, #9c9a08);
-    width: 85%;
+    width: 90%;
     padding: 0.3em;
     margin: 1em;
 
@@ -308,8 +307,8 @@ img.charmander {
 }
 
 img.squirtle {
-    width: 12rem;
-    transform: translate(-0.31rem, -1.2rem);
+    width: 13rem;
+    transform: translate(-0.31rem, -1.7rem);
 }
 
 /* POKEMON TYPE CAPSULE STRUCTURE */
