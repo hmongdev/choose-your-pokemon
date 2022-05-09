@@ -70,7 +70,7 @@ body {
     position: absolute;
     -webkit-backface-visibility: hidden;
     /* Safari */
-    backface-visibility: visible;
+    backface-visibility: hidden;
 }
 
 /* Style the back side */
