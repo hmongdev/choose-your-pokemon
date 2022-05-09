@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'Pokemon Solid', sans-serif;
-    src: url(sansation_light.woff);
+    src: url('http://fonts.cdnfonts.com/css/pokemon-solid');
 }
 
 html {
