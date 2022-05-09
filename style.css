@@ -275,8 +275,8 @@ img.bulbasaur {
 }
 
 img.charmander {
-    width: 9.7rem;
-    transform: translate(0.6rem, -1rem) rotateY(180deg) rotate(-8deg);
+    width: 10rem;
+    transform: translate(2rem, -1rem) rotateY(180deg) rotate(-8deg);
 }
 
 /*/////////////////// SQUIRTLE ///////////////////*/
