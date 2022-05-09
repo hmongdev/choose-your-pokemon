@@ -1,6 +1,5 @@
-/*/////////////////// DEFAULT STYLES ///////////////////*/
 
-/* Pokemon Solid Fonts *********************************/
+/*/////////////////// Pokemon Solid Fonts ///////////////////*/
 
 @import url('https://fonts.cdnfonts.com/css/pokemon-solid');
 
@@ -12,6 +11,7 @@
     font-style: normal;
 }
 
+/*/////////////////// DEFAULT STYLES ///////////////////*/
 html {
     background-image: url("images/kanto-background.png");
     background-repeat: no-repeat;
@@ -123,13 +123,13 @@ h1 {
 .border {
     width: 18rem;
     height: 25rem;
+    filter: url(";data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.3' seed='1' numOctaves='3' stitchTiles='stitch' /%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' /%3E%3C/svg%3E");
     background: linear-gradient(to top left,
             #ffd65aaa,
             #ffef08da,
             #deb434c0,
             #ffef08da,
-            #ffd65aaa),
-        url(";data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.3' seed='1' numOctaves='3' stitchTiles='stitch' /%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' /%3E%3C/svg%3E");
+            #ffd65aaa);
 }
 
 /*/////////////////// HEADER ///////////////////*/
