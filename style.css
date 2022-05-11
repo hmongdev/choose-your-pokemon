@@ -9,13 +9,8 @@
     font-weight: normal;
     font-style: normal; */
 
-@import url(//db.onlinewebfonts.com/c/f4d1593471d222ddebd973210265762a?family=Pokemon);
-
-@font-face {
-    font-family: "Pokemon";
-    src: url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.eot");
-    src: url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.woff") format("woff"), url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.svg#Pokemon") format("svg");
-}
+    @import url(//db.onlinewebfonts.com/c/f4d1593471d222ddebd973210265762a?family=Pokemon);
+    @font-face {font-family: "Pokemon"; src: url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.eot"); src: url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.woff") format("woff"), url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f4d1593471d222ddebd973210265762a.svg#Pokemon") format("svg"); }
 
 /*/////////////////// Card Glow ///////////////////*/
 .glow {
@@ -174,10 +169,11 @@ ul {
             orange 75%,
             red 82.5%);
     -webkit-background-clip: text;
-    background-clip: border-box;
-    -webkit-text-fill-color: -webkit-text-fill-color-webkit-text-fill-color
-        /* TEXT OUTLINE */
-        /* -webkit-text-stroke-width: 0.04vw;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;-webkit-text-fill-color-webkit-text-fill-color-webkit-text-fill-color-webkit-text-fill-color
+
+    /* TEXT OUTLINE */
+    /* -webkit-text-stroke-width: 0.04vw;
     -webkit-text-stroke-color: rgba(122, 122, 122, 0.4); */
 }
 
