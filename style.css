@@ -48,12 +48,15 @@ body {
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 
+.border,
+.background,
 .flip-card,
 .pokemon-card-back,
 .flip-card-inner,
 .flip-card-front {
     width: 18rem;
     height: 25rem;
+    border-radius: 5%;
 }
 
 .flip-card {
@@ -107,11 +110,6 @@ h1 {
 }
 
 /*/////////////////// BORDER ///////////////////*/
-
-.background,
-.border {
-    border-radius: 5%;
-}
 
 /* 90% width for the image-border*/
 .image-border-bulbasaur,
@@ -357,4 +355,4 @@ span.pokemon-type#fire {
 /* WATER TYPE CAPSULE */
 span.pokemon-type#water {
     background: linear-gradient(to bottom, white 1%, #1e56bd 35%, white);
-}
+}}
