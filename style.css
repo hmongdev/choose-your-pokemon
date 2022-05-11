@@ -50,8 +50,8 @@ body {
 
 .border,
 .background,
-.flip-card,
 .pokemon-card-back,
+.flip-card,
 .flip-card-inner,
 .flip-card-front {
     width: 18rem;
@@ -354,5 +354,4 @@ span.pokemon-type#fire {
 /* WATER TYPE CAPSULE */
 span.pokemon-type#water {
     background: linear-gradient(to bottom, white 1%, #1e56bd 35%, white);
-}
 }
