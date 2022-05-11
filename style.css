@@ -1,3 +1,12 @@
+/*/////////////////// Card Glow ///////////////////*/
+.glow {
+    transition: border-color 1s, box-shadow 0.5s;
+}
+
+.glow:hover {
+    border-color: rgba(13, 110, 253, 0.8);
+    box-shadow: 10px 10px 10px 10px rgba(233, 253, 13, 0.89);
+}
 
 /*/////////////////// Pokemon Solid Fonts ///////////////////*/
 
